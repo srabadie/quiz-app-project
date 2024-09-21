@@ -1,0 +1,33 @@
+button{
+    background-color: #fff;
+    width: 220px;
+    height: 40px;
+    border-radius: 18px;
+    text-align: center;
+    margin: 3px;
+    text-decoration: none;
+    padding: 10px;
+    cursor:pointer;
+    transition: all 0.2s ease-in;
+    border: none; 
+}
+
+h3{
+    margin-bottom: 80px;
+}
+a{
+    text-decoration: none;
+    background-color: #feceed;
+    border:2px solid rgb(104, 103, 103);
+    width: 90px;
+    height: 36px;
+    text-align: center;
+    align-items: center;
+    line-height: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+a:hover{
+    background-color: aliceblue;
+}

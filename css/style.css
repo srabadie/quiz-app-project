@@ -1,0 +1,81 @@
+header{
+    display: flex;
+    margin: 40px 0px;
+    justify-content: space-between;
+    width: 700px;
+    font-size: 1.2rem;
+    
+}
+header span{
+    background-color: aliceblue;
+    padding: 3px;
+    border-radius: 6px;
+}
+header p{
+    font-weight: 700;
+}
+main p{
+    background-color:  rgb(104, 103, 103);
+    color: #feceed;
+    width: 700px;
+    border-radius: 15px;
+    padding: 9px;
+    margin-bottom: 30px;
+}
+.answers{
+    display: flex;
+    width: 700px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: none;
+    padding: 6px;
+    transition: all 0.3s;
+    
+}
+.answers:hover{
+    background-color: rgb(104, 103, 103);
+    color: #feceed;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    width: 700px;
+}
+#container{
+    display: none;
+}
+#loader{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border: 5px rgb(104, 103, 103) solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: rotation 1.5s linear infinite;
+}
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.correct{
+    background-color: #5bd7bc;
+}
+.incorrect{
+    background-color: #fe6681;
+}
+.correct:hover{
+    background-color: #5bd7bc;
+}
+.incorrect:hover{
+    background-color: #fe6681;
+}
+
+h4{
+    display: none;
+}
